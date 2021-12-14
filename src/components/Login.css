@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Mulish:wght@200;400&family=Ubuntu&display=swap');
+.login {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.login>div>img {
+    object-fit: contain;
+    height: 150px;
+}
+
+.login>button {
+    width: 300px;
+    background-color: #2e81f4;
+    color: #eff2f5;
+    font-weight: 800;
+}
+
+.login>button:hover {
+    background-color: white;
+    color: #2e81f4;
+}
+
+.login>div>img {
+    object-fit: contain;
+    height: 150px;
+}
+
+.login__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: #3b5998;
+    font-family: 'Mulish', sans-serif;
+}
+
+.login>div {
+    display: flex;
+    flex-direction: column;
+}

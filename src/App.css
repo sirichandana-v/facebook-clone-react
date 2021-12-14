@@ -1,0 +1,9 @@
+.app {
+    background-color: rgb(226, 220, 220);
+    height: 100%;
+}
+
+.app__body {
+    display: flex;
+    margin-top: 20px;
+}
